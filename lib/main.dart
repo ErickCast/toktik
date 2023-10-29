@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:toktik/config/theme/app_theme.dart';
 import 'package:toktik/presentation/providers/discover_provider.dart';
 import 'package:toktik/presentation/screens/discover/discover_screen.dart';
+import 'package:toktik/presentation/screens/screens_export.dart';
 
 void main() => runApp(const MyApp());
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         title: 'TokTik',
         debugShowCheckedModeBanner: false,
         theme: AppTheme().getTheme(),
-        home: const DiscoverScreen()
+        home: const LoginScreen()
       ),
     );
   }
